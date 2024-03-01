@@ -2,8 +2,8 @@ package org.crystalfurman.patternmatching;
 
 public class LicenseName {
 
-    private String fullName;
-    private String nickname;
+    private final String fullName;
+    private final String nickname;
 
     public LicenseName(String fn, String nn) {
         fullName = fn;

@@ -2,9 +2,9 @@ package org.crystalfurman.patternmatching;
 
 public class Dog implements Animal {
 
-    private LicenseName name;
-    private String breed;
-    private double weight;
+    private final LicenseName name;
+    private final String breed;
+    private final double weight;
 
     public Dog(LicenseName n, String b, double w) {
         name = n;
